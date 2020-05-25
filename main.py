@@ -4,13 +4,11 @@ Initializes the program, starts the algorithm.
 """
 import xml.etree.ElementTree as ET
 import argparse
-import os
-import sys
+import math
 from graph import Graph
 from printer import Printer
 from algorithm import Solver
 import config as cfg
-import math
 
 def main():
     parser = argparse.ArgumentParser()

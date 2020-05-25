@@ -3,7 +3,7 @@ config.py
 File in which algorithm parameters and other configurable constant values are set.
 """
 
-path = "src/germany50.xml"
+path = "germany50.xml"
 source = "Konstanz"
 destination = "Hamburg"
 iterations = 50
